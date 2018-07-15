@@ -13,7 +13,7 @@ const gamesWon = (function () {
    let winCount = 0;
     return function () {
         winCount += 1; 
-        return winCount}
+        return winCount;}
     }
 )();
 
@@ -21,7 +21,7 @@ const keyCounter = (function () {
     let counter = 0;
     return function () {
         counter += 1; 
-        return counter}
+        return counter;}
     }
 )();
 
